@@ -1,0 +1,75 @@
+$theme-colors: (
+  primary: #FFD23F,
+  secondary: #f2f2f2
+);
+$spacer: 1.5rem;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+h1,h2,h3,h4,h5,p{
+  color: #808080;
+}
+
+.jumbotron {
+  height: 97vh;
+  background: url("../images/fondo_original.png");
+  background-size: cover;
+  .container{
+    .row{
+      .hello__web {
+        font-size: 5em;
+       }      
+      .me__web{
+        font-size: 8em;
+      }
+      .position__web{
+        font-size: 2em;
+        letter-spacing: 12px;
+      }
+      .info__web{
+        letter-spacing: 3px;
+      }
+      .social_networks{
+        font-size: 1.5em;
+      }
+    }
+  }
+}
+.about{
+  background: url("../images/fondo__aboutme.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 35% 90%;
+  .container{
+    .row{
+      img{
+        width: 80%;
+      }
+      .about__text{
+        letter-spacing: 2px;
+      }
+      .btn__cv:hover{
+        color: white;
+
+      }
+    }
+  }
+}
+.portfolio{
+  .container{
+
+  }
+}
+footer{
+  color:#777;
+  .container{
+    .phrase__web{
+      font-size: 16px;
+    }
+  }
+}
+
+body{
+  background: url("../images/fondo_main.png");
+  background-size: cover;
+}
